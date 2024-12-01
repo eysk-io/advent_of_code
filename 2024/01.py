@@ -7,11 +7,11 @@ def main():
         pair = line.split()
         firsts.append(int(pair[0]))
         seconds.append(int(pair[1]))
-    # diffs(firsts, seconds)
-    score(firsts, seconds)
+    # p1(firsts, seconds)
+    p2(firsts, seconds)
 
 
-def diffs(l1, l2):
+def p1(l1, l2):
     res = 0
     l1.sort()
     l2.sort()
@@ -20,7 +20,7 @@ def diffs(l1, l2):
         print("current result:" + str(res))
 
 
-def score(l1, l2):
+def p2(l1, l2):
     res = 0
 
     for first in l1:
