@@ -1,5 +1,9 @@
+import os
+
+
 def main():
-    lines = open("02.txt").read().splitlines()
+    lines = open(os.path.join(os.path.dirname(__file__),
+                 "01.txt"), "r").read().splitlines()
 
     firsts = []
     seconds = []
