@@ -1,5 +1,5 @@
 def main():
-    lines = open("p1.txt").read().splitlines()
+    lines = open("02.txt").read().splitlines()
 
     firsts = []
     seconds = []
